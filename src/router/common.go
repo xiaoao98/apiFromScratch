@@ -11,5 +11,7 @@ func init() {
 	CommonRouter = append(CommonRouter, func(router *gin.RouterGroup) {
 		// 测试用例1
 		router.GET("ping", api.Ping)
+		//测试用例2
+		router.GET("showMyself", api.ShowMyself)
 	})
 }
