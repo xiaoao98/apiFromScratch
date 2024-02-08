@@ -13,5 +13,7 @@ func init() {
 		router.GET("ping", api.Ping)
 		//测试用例2
 		router.GET("showMyself", api.ShowMyself)
+		//测试用例3
+		router.POST("printMyself", api.PrintMyself)
 	})
 }
